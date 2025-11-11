@@ -11,6 +11,6 @@ jobs:
             uses: actions/checkout@v3
 
           - name: ls
-            uses: ./.github/actions/my_actions
+            uses: ./.github/actions/my_action
             with:
                 message: "Bryan"
